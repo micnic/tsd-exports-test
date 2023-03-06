@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"checkJs": true,
+		"esModuleInterop": true,
+		"lib": ["es2020"],
+		"module": "ES2020",
+		"moduleResolution": "node16",
+		"noEmit": true,
+		"strict": true,
+		"target": "es2020"
+	},
+	"include": [
+		"index.d.ts",
+		"index.js",
+		"lib",
+		"test-d"
+	]
+}

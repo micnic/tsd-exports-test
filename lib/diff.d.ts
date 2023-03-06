@@ -1,0 +1,1 @@
+export declare function diff(a: number, b: number): number;
