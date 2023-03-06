@@ -12,11 +12,14 @@
   "scripts": {
     "check": "npm run ts-check && npm run tsd-check",
     "ts-check": "tsc",
-    "tsd-check": "tsd"
+    "tsd-check": "tsd",
+    "test:types": "jest -c jest.config.tsd.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jest": "^29.5.0",
+    "jest-runner-tsd": "^4.0.0",
     "tsd": "^0.26.0",
     "typescript": "^4.9.5"
   }
